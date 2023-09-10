@@ -1,0 +1,31 @@
+// Initializes 'package.json'
+--------------------------------------------------------------
+-> npm init
+
+
+
+// Install Node Modules:
+--------------------------------------------------------------
+-> npm install -D webpack webpack-cli               :: Installs WEBPACK
+-> npm i -D style-loader css-loader                 :: Installs CSS related modules to be imported in 'src/index.js' and bundled into 'dist/bundle.js' upon build.
+-> npm i -D html-webpack-plugin                     :: Creates folder 'dist' and all files inside it (bundle.js, index.html) automaticly upon build.
+-> npm i -D webpack-dev-server                      :: Installs the WEBPACK DEV SERVER (For live reloading)
+-> npm i bootstrap @fortawesome/fontawesome-free    :: Installs the FONT AWESOME pack
+
+
+
+// For building the app:
+--------------------------------------------------------------
+-> npm run build
+
+
+
+// For Opening and Running the dev server (Possible after the WEBPACK DEV SERVER was installed. Supports live reloading, but for the HTML we need to refresh the page.)
+--------------------------------------------------------------
+-> npm run dev
+
+
+
+// WEBPACK Configuration:
+--------------------------------------------------------------
+see 'webpack.config.js' file
